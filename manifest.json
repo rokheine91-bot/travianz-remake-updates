@@ -1,0 +1,17 @@
+{
+ "latest": "0.10.14",
+ "notes": "Smarter AI rulers, fairer endgame, about a quarter less Claude usage.\n- AI turns by tier: main rulers look in every 10 minutes (5 in war), minor every 30, script every 60; the 50\n  weakest only answer letters. 20 rulers think at once.\n- Claude usage: the game asks the Claude program for a 5-minute prompt cache instead of 1 hour. Same answers,\n  about a quarter less usage.\n- Rulers now see their own beginner's protection (on for N minutes, or over), how many letters they have left,\n  and can call off planned attacks or switch off the daily attack on Natar garrisons.\n- Fixed: a send without a mission (or \"support\") could go out as an attack; it now reinforces own and allied\n  villages, and unknown missions are refused.\n- Settling: the next village slot (residence) is planned before the culture is there and fed by the richest\n  village; far fewer rulers sit with culture ready and no free slot.\n- Endgame: a hero moves home to an own village with a Hero's Mansion when sent there alone (as in TravianZ); a\n  ruler whose capital already holds an artifact hunts from another village; full villages ship their surplus to\n  starving or empty ones; a field the warehouse can never pay no longer blocks the plan; the world slows down even\n  if a human is raided without pause.\n- Alliance leaders never spy on their own alliance. AI chat in Slovenian is plainer, with only a little slang.",
+ "files": [
+  {
+   "name": "TravianzRemake-game.zip",
+   "size": 94450841,
+   "sha256": "cb9f56a4fcc35a490209649b82bcd0b366ae31a2b29153ddda8513f3449694fa",
+   "url": "https://raw.githubusercontent.com/rokheine91-bot/travianz-remake-updates/main/files/0.10.14/TravianzRemake-game.zip",
+   "parts": [
+    "https://raw.githubusercontent.com/rokheine91-bot/travianz-remake-updates/main/files/0.10.14/TravianzRemake-game.zip.part00",
+    "https://raw.githubusercontent.com/rokheine91-bot/travianz-remake-updates/main/files/0.10.14/TravianzRemake-game.zip.part01"
+   ]
+  }
+ ],
+ "sig": "pRgQPNEValhueFlN4u7975pQV21Zb3P/dTar83MXbuTLmX2K6xAdsM1Po1B3unXAWRFCSl984QHNVQw3BMUOBg=="
+}
